@@ -1,0 +1,20 @@
+define bezier curves
+define objects
+define distribution of objects along a curve
+	spacing/number of objects to determine position
+	orientation of objects
+	scale of objects
+	randomness for any of these values
+	function to define varying values of these parameters along the curve
+define volumetric distributions of objects
+treat curves as an object which can be placed on a curve
+
+3 base objects:
+volumes (rectangular prisms or elipsoids) with varying distribution
+curves with parameters defined above
+objects (default? or loaded from a file)
+
+specify materials for objects, input a string which will describe the material and indicate what objects to apply it to
+maybe add lights? or maybe have users go back and add them to the pbrt file
+
+output: a pbrt file describing the objects in the scene
