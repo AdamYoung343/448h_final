@@ -7,8 +7,6 @@
 #include <OpenMesh/Core/IO/MeshIO.hh>
 #include <OpenMesh/Core/Mesh/TriMesh_ArrayKernelT.hh>
 
-#include <GL\freeglut.h>
-
 using namespace std;
 using namespace OpenMesh;
 
